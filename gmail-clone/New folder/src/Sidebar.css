@@ -1,0 +1,39 @@
+.Sidebar_component{
+    display: flex;
+    justify-content: left;
+    padding-left: 20px !important;
+    padding: 5px;
+    color: gray;
+    cursor: pointer;
+    font-weight: 700;
+
+
+}
+.Sidebar{
+    display: flex;
+    flex-direction: column ;
+    width: 20%;
+    /* flex: 0.2; */
+    
+}
+
+.Sidebar_component:hover{
+    color: rgba(255, 0, 0, 0.616);
+    background-color: #ff000040;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.Compose{
+    font-weight: bold;
+    color: gray;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    margin: 28px;
+    width: 120px;
+    height: 20px;
+    border-top: 0;
+    border-radius: 50px;
+    box-shadow: 1px 2px 5px -2px black;
+}
