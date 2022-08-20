@@ -43,7 +43,7 @@ function Body() {
                 <p style={{ color: 'gray', marginLeft: 10 }}>{content}</p>
             </div>
 
-            <h4>{time}</h4>
+            <h4>{time}..</h4>
 
 
         </div>
